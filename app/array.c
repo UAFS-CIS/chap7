@@ -1,5 +1,7 @@
 #include "array.h"
 
+//Global Variable
+int val=10;
 
 int *newArray(int size){
 	int *array = malloc(size * sizeof(int));
