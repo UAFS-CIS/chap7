@@ -4,7 +4,7 @@
 CC=gcc
 
 myprog: myprog.c libmylib.a 
-	$(CC) myprog.c -L. -lmylib -o myprog
+	$(CC) myprog.c -o myprog -L. -lmylib
 
 sum.o:	sum.c mylib.h
 	$(CC) -c sum.c -o sum.o
